@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Nepali Momo House - Food Website Template</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Nunito:600,700" rel="stylesheet"> 
+        
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+        <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-light navbar-light">
+            <div class="container-fluid">
+                <img src="img/logo-removebg-preview.png" width="150" alt="250" href="index.html">
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="index.html" class="nav-item nav-link active">INICIO</a>
+                        <a href="team.html" class="nav-item nav-link">CHEF</a>
+                        <a href="menu.html" class="nav-item nav-link">NOSOTROS</a>
+                        <a href="booking.html" class="nav-item nav-link">RESERVA</a>
+                        <a href="pedir.html" class="nav-item nav-link">PEDIR A DOMICILIO</a>
+                        <a href="contact.html" class="nav-item nav-link">CONTACTO</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nav Bar End -->
+        
+        
+        <!-- Page Header Start -->
+        <div class="page-header mb-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Reservar una mesa</h2>
+                    </div>
+                    <div class="col-12">
+                        <a href="">Inicio</a>
+                        <a href="">Reserva</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page Header End -->
+        
+
+        <!-- Booking Start -->
+        <div class="booking">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <div class="booking-content">
+                            <div class="section-header">
+                                <p>Reserva</p>
+                                <h2>Reserva tu mesa</h2>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    Reserva una mesa con nosotros y disfruta de una experiencia culinaria excepcional. 
+                                </p>
+                                <p>
+                                    ¡Te esperamos!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="booking-form">
+                            <form>
+                                <div class="control-group">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Name" required="required" />
+                                        <div class="input-group-append">
+                                            <div class="input-group-text"><i class="far fa-user"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" placeholder="Email" required="required" />
+                                        <div class="input-group-append">
+                                            <div class="input-group-text"><i class="far fa-envelope"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Mobile" required="required" />
+                                        <div class="input-group-append">
+                                            <div class="input-group-text"><i class="fa fa-mobile-alt"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <div class="input-group date" id="date" data-target-input="nearest">
+                                        <input type="text" class="form-control datetimepicker-input" placeholder="Date" data-target="#date" data-toggle="datetimepicker"/>
+                                        <div class="input-group-append" data-target="#date" data-toggle="datetimepicker">
+                                            <div class="input-group-text"><i class="far fa-calendar-alt"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <div class="input-group time" id="time" data-target-input="nearest">
+                                        <input type="text" class="form-control datetimepicker-input" placeholder="Time" data-target="#time" data-toggle="datetimepicker"/>
+                                        <div class="input-group-append" data-target="#time" data-toggle="datetimepicker">
+                                            <div class="input-group-text"><i class="far fa-clock"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <div class="input-group">
+                                        <select class="custom-select form-control">
+                                            <option selected>Invitado/a</option>
+                                            <option value="1">1 Invitado/a</option>
+                                            <option value="2">2 Invitado/a</option>
+                                            <option value="3">3 Invitado/a</option>
+                                            <option value="4">4 Invitado/a</option>
+                                            <option value="5">5 Invitado/a</option>
+                                            <option value="6">6 Invitado/a</option>
+                                            <option value="7">7 Invitado/a</option>
+                                            <option value="8">8 Invitado/a</option>
+                                            <option value="9">9 Invitado/a</option>
+                                            <option value="10">10 Invitado/a</option>
+                                        </select>
+                                        <div class="input-group-append">
+                                            <div class="input-group-text"><i class="fa fa-chevron-down"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <button class="btn custom-btn" type="submit">Reservar ahora</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Booking End -->
+        
+        
+               <!-- Menu Start -->
+               <div class="menu">
+                <div class="container">
+                    <div class="section-header text-center">
+                        <p>Menú</p>
+                        <h2>Menú de comida deliciosa</h2>
+                    </div>
+                    <div class="menu-tab">
+                        <ul class="nav nav-pills justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="pill" href="#burgers">M0MO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="pill" href="#snacks">CHEF'S SPECIAL</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="pill" href="#beverages">AMILO PIRO </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="pill" href="#SITTAN">SITTAN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="pill" href="#CHILLY">CHILLY SPECIAL</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="pill" href="#HOUSE">HOUSE SPECIAL </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="pill" href="#POSTRES">POSTRES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="pill" href="#SMOOTHIES">SMOOTHIES</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div id="burgers" class="container tab-pane active">
+                                <div class="row">
+                                    <div class="col-lg-7 col-md-12">
+                                        <div class="menu-item">
+                                            <div class="menu-img">
+                                                <img src="img/momo al vapor.png" alt="Image">
+                                            </div>
+                                            <div class="menu-text">
+                                                <h3><span>MOMO AL VAPOR</span> <strong>7.95Є</strong></h3>
+                                                <p>Empanadillas rellenas de carne o verduras con especias, al vapor.
+                                                    Steamed dumplings filled with meat or vegetables with spices</p>
+                                            </div>
+                                        </div>
+                                        <div class="menu-item">
+                                            <div class="menu-img">
+                                                <img src="img/chilli momo.png" alt="Image">
+                                            </div>
+                                            <div class="menu-text">
+                                                <h3><span>CHILLI MOMO<i style='font-size:24px' class='fas'>&#xf816;</i>
+                                                </span>
+    
+                                                    <strong>9.35Є</strong></h3>
+                                                <p>Momos fritos salteados con pimientos y cebollas frescas con
+                                                    salsa agridulce.
+                                                    Fried momos sautéed with fresh capcicums and onions in a
+                                                    tangy chilli sauce</p>
+                                            </div>
+                                        </div>
+                                        <div class="menu-item">
+                                            <div class="menu-img">
+                                                <img src="img/" alt="Image">
+                                            </div>
+                                            <div class="menu-text">
+                                                <h3><span>SADHEKO MOMO (CRISPY)<i style='font-size:24px' class='fas'>&#xf816;</i> </span> <strong>9.35Є</strong></h3>
+                                                <p>Momos salteados con cebolla, tomate y ajo con un toque de
+                                                    especias autóctonos.
+                                                    Momos tossed with slices of onion, tomato and garlic with a
+                                                    touch of native spices.
+                                                    </p>
+                                            </div>
+                                        </div>
+                                        <div class="menu-item">
+                                            <div class="menu-img">
+                                                <img src="img/tato jhol momo.png" alt="Image">
+                                            </div>
+                                            <div class="menu-text">
+                                                <h3><span>TATO JHOL MOMO</span> <strong>8.65Є</strong></h3>
+                                                <p>Momo al vapor sofocado en caldo de verduras con chutney de
+                                                    tomate picante.
+                                                    Steamed momo smothered in veggie broth with spicy tomato
+                                                    chutney</p>
+                                            </div>
+                                        </div>
+                                        <div class="menu-item">
+                                            <div class="menu-img">
+                                                <img src="img/" alt="Image">
+                                            </div>
+                                            <div class="menu-text">
+                                                <h3><span>KATHMANDU JHOL MOMO (COLD)</span> <strong>8.65Є</strong></h3>
+                                                <p>Momo al vapor sumergido en chutney frío de sésamo y maní.
+                                                    Steamed momo dipped in cold sesame and peanuts chutney.</p>
+                                            </div>
+                                        </div>
+                                        <div class="menu-item">
+                                            <div class="menu-img">
+                                                <img src="img/" alt="Image">
+                                            </div>
+                                            <div class="menu-text">
+                                                <h3><span>TEMPTING ACHARI<i style='font-size:24px' class='fas'>&#xf816;</i></span> <strong>9.95Є</strong></h3>
+                                                <p>Sabrosos momos cubiertos con marinado picante de achari
+                                                    horneados hasta que estén crujientes.
+                                                    Tasty momos coated in spicy, tangy achari marination baked until
+                                                    crisp.</p>
+                                            </div>
+                                        </div>
+                                        <div class="menu-item">
+                                            <div class="menu-img">
+                                                <img src="img/WhatsApp Image 2024-06-09 at 22.23.57.png" alt="Image">
+                                            </div>
+                                            <div class="menu-text">
+                                                <h3><span>SEXY SCHEZWAN (Too hot to handle)<i style='font-size:24px' class='fas'>&#xf816;</i><i style='font-size:24px' class='fas'>&#xf816;</i><i style='font-size:24px' class='fas'>&#xf816;</i></span> <strong>9.95Є</strong></h3>
+                                                <p>Empanadillas especiales de momo house con salsa llena de sabor
+                                                    de especias nativas picante.
+                                                    Momo house special dumplings with a sauce bursting with taste
+                                                    of homegrown flavours.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                         
+                                                <div class="col-lg-5 d-none d-lg-block">
+                                                    <img src="img/logo-removebg-preview.png" alt="Image">
+                               
+                                                
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="snacks" class="container tab-pane fade">
+                                <div class="row">
+                                    <div class="col-lg-7 col-md-12">
+                                        <div class="menu-item">
+                                            <div class="menu-img">
+                                                <img src="img/WhatsApp Image 2024-06-09 at 00.38.03.png" alt="Image">
+                                            </div>
+                                            <div class="menu-text">
+                                                <h3><span>ALOO BODI TAAMA</span> <strong>6.95Є</strong></h3>
+                                                <p>Una sopa tradicional de frijoles de ojo negro, brotes de
+                                                    bambú fermentados y papas preparada con la receta
+                                                    especial del chef.
+                                                    A traditional soup of black eyed beans, fermented
+                                                    bamboo shoots and potatoes prepared with chef's
+                                                    special recipe.</p>
+                                            </div>
+                                       
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 d-none d-lg-block">
+                                        <img src="img/logo-removebg-preview.png" alt="Image">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="beverages" class="container tab-pane fade">
+                                <div class="row">
+                                    <div class="col-lg-7 col-md-12">
+                                        <div class="menu-item">
+                                            <div class="menu-img">
+                                                <img src="img/chatpat.png" alt="Image">
+                                            </div>
+                                            <div class="menu-text">
+                                                <h3><span>CHATPATE</span> <strong>4.95Є</strong></h3>
+                                                <p>Mezcla crujiente y picante de fideos instantáneos, arroz
+                                                    inflado, tomate, pepino, cebolla y guisantes.
+                                                    Crunchy spicy mix of Nepalese instant noodle, puffed
+                                                    rice, diced tomatoes, cucumber, onions, and peas.
+                                                    </p>
+                                            </div>
+                                        </div>
+                                        <div class="menu-item">
+                                            <div class="menu-img">
+                                                <img src="img/pani puri.png" alt="Image">
+                                            </div>
+                                            <div class="menu-text">
+                                                <h3><span>PANI PURI</span> <strong>4.95Є</strong></h3>
+                                                <p>Bola de masa frita rellena de puré de papa y cebolla
+                                                    servida con agua masala picante.
+                                                    Fried pastry ball stuffed with mashed potato and onion
+                                                    served with tangy masala water.</p>
+                                            </div>
+                                        </div>
+                                        <div class="menu-item">
+                                            <div class="menu-img">
+                                                <img src="img/" alt="Image">
+                                            </div>
+                                            <div class="menu-text">
+                                                <h3><span>BHATMAS SADEKO</span> <strong>4.95Є</strong></h3>
+                                                <p>Soja frita, mezclada con especias e ingredientes frescos.
+                                                    Fried soybean, mixed with spices and fresh ingredients.
+                                                    </p>
+                                            </div>
+                                        </div>
+                                        <div class="menu-item">
+                                            <div class="menu-img">
+                                                <img src="img/WhatsApp Image 2024-06-08 at 23.40.36.png" alt="Image">
+                                            </div>
+                                            <div class="menu-text">
+                                                <h3><span>SAMOSA CHAAT</span> <strong>5.95Є</strong></h3>
+                                                <p>Empanada frita rellenas de patata y guisantes,
+                                                    recubiertos con yogur, tamarindo y salsa de Menta.
+                                                    Fried pastry stuffed with potato and peas, coated with
+                                                    yogurt, tamarind and mint sauce.
+                                                    </p>
+                                            </div>
+                                        </div>
+                                        <div class="menu-item">
+                                            <div class="menu-img">
+                                                <img src="img/WhatsApp Image 2024-06-08 at 23.23.28.png" alt="Image">
+                                            </div>
+                                            <div class="menu-text">
+                                                <h3><span>PAKORA VEGETAL</span> <strong>4.95Є</strong></h3>
+                                                <p>Verduras mixtas rebozado en harina de garbanzo.
+                                                    Mix vegetables battered in chickpea flour.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="menu-item">
+                                                <div class="menu-img">
+                                                    <img src="img/aaloo timmuri.png" alt="Image">
+                                                </div>
+                                                <div class="menu-text">
+                                                    <h3><span>AALU TIMURI</span> <strong>4.95Є</strong></h3>
+                                                    <p>Dados de patatas salteados con especias tradicionales y
+                                                        hierbas del Himalaya.
+                                                        Diced potatoes sautéed with traditional spices and
+                                                        himalayan herbs.
+                                                        
+                                                        </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 d-none d-lg-block">
+                                        <img src="img/logo-removebg-preview.png" alt="Image">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="snacks" class="container tab-pane fade">
+                                <div class="row">
+                                    <div class="col-lg-7 col-md-12">
+                                        <div class="menu-item">
+                                            <div class="menu-img">
+                                                <img src="img/" alt="Image">
+                                            </div>
+                                            <div class="menu-text">
+                                                <h3><span>ALOO BODI TAAMA</span> <strong>6.95Є</strong></h3>
+                                                <p>Una sopa tradicional de frijoles de ojo negro, brotes de
+                                                    bambú fermentados y papas preparada con la receta
+                                                    especial del chef.
+                                                    A traditional soup of black eyed beans, fermented
+                                                    bamboo shoots and potatoes prepared with chef's
+                                                    special recipe.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 d-none d-lg-block">
+                                        <img src="img/logo-removebg-preview.png" alt="Image">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="SITTAN" class="container tab-pane fade">
+                                <div class="row">
+                                    <div class="col-lg-7 col-md-12">
+                                        <div class="menu-item">
+                                            <div class="menu-img">
+                                                <img src="img/" alt="Image">
+                                            </div>
+                                            <div class="menu-text">
+                                                <h3><span>PORK CHOILA</span> <strong>9.95Є</strong></h3>
+                                                <p>Trozos de pechuga de pollo/cerdo a la parrilla mezclados
+                                                    con especias, semillas de methi y aceite de mostaza.
+                                                    Tender pieces of chargrilled chicken/pork breast blended
+                                                    with spices, methi seeds and mustard oil.
+                                                    </p>
+                                            </div>
+                                        </div>
+                                        <div class="menu-item">
+                                            <div class="menu-img">
+                                                <img src="img/" alt="Image">
+                                            </div>
+                                            <div class="menu-text">
+                                                <h3><span>CHICKEN CHOILA</span> <strong>9.95Є</strong></h3>
+                                                <p>Trozos de pechuga de pollo/cerdo a la parrilla mezclados
+                                                    con especias, semillas de methi y aceite de mostaza.
+                                                    Tender pieces of chargrilled chicken/pork breast blended
+                                                    with spices, methi seeds and mustard oil.
+                                                    </p>
+                                            </div>
+                                        </div>
+                                        <div class="menu-item">
+                                            <div class="menu-img">
+                                                <img src="img/WhatsApp Image 2024-06-08 at 23.23.28 (1).png" alt="Image">
+                                            </div>
+                                            <div class="menu-text">
+                                                <h3><span>PORK SEKUWA</span> <strong>9.95Є</strong></h3>
+                                                <p>Brocheta de pollo/cerdo marinado con hierbas y especias
+                                                    nepalesas y luego asado a la parrilla.
+                                                    Skewered marinated chicken/pork nepalese herbs & spices
+                                                    then grilled.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="menu-item">
+                                                <div class="menu-img">
+                                                    <img src="img/CHIK CHOILA.png" alt="Image">
+                                                </div>
+                                                <div class="menu-text">
+                                                    <h3><span>CHICKEN SEKUWA</span> <strong>9.95Є</strong></h3>
+                                                    <p>Brocheta de pollo/cerdo marinado con hierbas y especias
+                                                        nepalesas y luego asado a la parrilla.
+                                                        Skewered marinated chicken/pork nepalese herbs & spices
+                                                        then grilled.
+                                                        </p>
+                                            </div>
+                                       
+                                        </div> <div class="menu-item">
+                                            <div class="menu-img">
+                                                <img src="img/" alt="Image">
+                                            </div>
+                                            <div class="menu-text">
+                                                <h3><span>BUFALO WINGS<i class="fas fa-pepper-hot"></i></span> <strong>7.95Є</strong></h3>
+                                                <p>Alitas de pollo picantes a la brasa como en una barbacoa.
+                                                    Spicy chicken wings chargrilled just like BBQ.
+                                                    </p>
+                                            </div>
+                                       
+                                        </div> <div class="menu-item">
+                                            <div class="menu-img">
+                                                <img src="img/" alt="Image">
+                                            </div>
+                                            <div class="menu-text">
+                                                <h3><span>SUKUTI</span> <strong>13.50Є</strong></h3>
+                                                <p>Trozos de carne seca, con especias, agregando tomates
+                                                    frescos, ajo picante y el vigorizante toque de jengibre.
+                                                    Pieces of dried meat, with spices adding fresh tomatoes,
+                                                    zesty garlic, and the invigorating punch of ginger.
+                                                    </p>
+                                            </div>
+                                       
+                                        </div>
+                                        <div class="menu-item">
+                                            <div class="menu-img">
+                                                <img src="img/PANGRA FRY.png" alt="Image">
+                                            </div>
+                                            <div class="menu-text">
+                                                <h3><span>PANGRA FRY</span> <strong>8.95Є</strong></h3>
+                                                <p>Molleja de pollo hervida, salteada con especias nepalis,
+                                                    cebolla fresca, chile verde y cilantro.
+                                                    Boiled chicken gizzard, sauteed with Nepali spices fresh
+                                                    onion, green chilli and coriander.</p>
+                                            </div>
+                                       
+                                        </div>
+                                        <div class="menu-item">
+                                            <div class="menu-img">
+                                                <img src="img/" alt="Image">
+                                            </div>
+                                            <div class="menu-text">
+                                                <h3><span>KHASI KO BHUTAN</span> <strong>8.95Є</strong></h3>
+                                                <p>Callos de cabra y otras partes digestivas salteados con
+                                                    chalotas, tomates, ajo y otras hierbas.
+                                                    Goats tripe and other digestive parts stir-fried with shallots,
+                                                    tomatoes, garlic and other herbs.
+                                                    </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                    <div class="col-lg-5 d-none d-lg-block">
+                                                        <img src="img/logo-removebg-preview.png" alt="Image">
+                                                    </div>
+                                                </div>
+                                            
+                                    </div>
+                                    <div id="CHILLY" class="container tab-pane fade">
+                                        <div class="row">
+                                            <div class="col-lg-7 col-md-12">
+                                                <div class="menu-item">
+                                                    <div class="menu-img">
+                                                        <img src="img/" alt="Image">
+                                                    </div>
+                                                    <div class="menu-text">
+                                                        <h3><span>A ELEGIR : POLLO/CHICKEN</span> <strong>9.65Є</strong></h3>
+                                                        <p>Crispy fried chicken, pork or soyabean flavored with a blend
+                                                            of spices, fresh peppers and onions.
+                                                            Crujiente pollo frito, cerdo o soja aromatizado con una
+                                                            mezcla de especias, pimientos frescos y cebollas.
+                                                            </p>
+                                                   
+                                                    </div>
+                                                </div>
+                                                <div class="menu-item">
+                                                    <div class="menu-img">
+                                                        <img src="img/" alt="Image">
+                                                    </div>
+                                                    <div class="menu-text">
+                                                        <h3><span>CERDO/PORK</span> <strong>9.65Є</strong></h3>
+                                                        <p>Crispy fried chicken, pork or soyabean flavored with a blend
+                                                            of spices, fresh peppers and onions.
+                                                            Crujiente pollo frito, cerdo o soja aromatizado con una
+                                                            mezcla de especias, pimientos frescos y cebollas.
+                                                            </p>
+                                                   
+                                                    </div>
+                                                </div><div class="menu-item">
+                                                    <div class="menu-img">
+                                                        <img src="img/" alt="Image">
+                                                    </div>
+                                                    <div class="menu-text">
+                                                        <h3><span>VERDURAS/VEG</span> <strong>9.65Є</strong></h3>
+                                                        <p>Crispy fried chicken, pork or soyabean flavored with a blend
+                                                            of spices, fresh peppers and onions.
+                                                            Crujiente pollo frito, cerdo o soja aromatizado con una
+                                                            mezcla de especias, pimientos frescos y cebollas.
+                                                            </p>
+                                                   
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                            <div class="col-lg-5 d-none d-lg-block">
+                                                                <img src="img/logo-removebg-preview.png" alt="Image">
+                                                            </div>
+                                                        </div>
+                                                 
+                                            </div>
+                                            <div id="HOUSE" class="container tab-pane fade">
+                                                <div class="row">
+                                                    <div class="col-lg-7 col-md-12">
+                                                        <div class="menu-item">
+                                                            <div class="menu-img">
+                                                                <img src="img/" alt="Image">
+                                                            </div>
+                                                            <div class="menu-text">
+                                                                <h3><span>THAKALI VEG</span> <strong>12.65Є</strong></h3>
+                                                                <p>Un plato de verduras típico consiste en arroz, jhaneko dal, saag,
+                                                                    curry de verduras, ensalada y un achaar especial del chef.
+                                                                    A typical veg platter consists of rice, jhaneko dal, saag, vegetable
+                                                                    curry, salad, and a chefs special achaar.
+                                                                    </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <div class="menu-img">
+                                                                <img src="img/NON VEG.png" alt="Image">
+                                                            </div>
+                                                            <div class="menu-text">
+                                                                <h3><span>THAKALI NON-VEG</span> <strong>14.65Є</strong></h3>
+                                                                <p>Un plato de verduras típico consiste en arroz, jhaneko dal, saag,
+                                                                    curry de verduras, ensalada y un achaar especial del chef.
+                                                                    A typical veg platter consists of rice, jhaneko dal, saag, vegetable
+                                                                    curry, salad, and a chefs special achaar.
+                                                                    </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <div class="menu-img">
+                                                                <img src="img/" alt="Image">
+                                                            </div>
+                                                            <div class="menu-text">
+                                                                <h3><span>CHOWMEIN CHICKEN</span> <strong>8,50€</strong></h3>
+                                                                <p>Fideos salteados con pollo/cerdo/verduras, sazonados con soja y
+                                                                    un toque de especias.
+                                                                    Stir-fry noodles with boneless chicken/pork/veggies, seasoned
+                                                                    with soy and a touch of spice.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="menu-item">
+                                                                <div class="menu-img">
+                                                                    <img src="img/WhatsApp Image 2024-06-08 at 23.23.28 (2).png" alt="Image">
+                                                                </div>
+                                                                <div class="menu-text">
+                                                                    <h3><span>CHOWMEIN PORK</span> <strong>8,50€</strong></h3>
+                                                                    <p>Fideos salteados con pollo/cerdo/verduras, sazonados con soja y
+                                                                        un toque de especias.
+                                                                        Stir-fry noodles with boneless chicken/pork/veggies, seasoned
+                                                                        with soy and a touch of spice.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="menu-item">
+                                                                    <div class="menu-img">
+                                                                        <img src="img/" alt="Image">
+                                                                    </div>
+                                                                    <div class="menu-text">
+                                                                        <h3><span>CHOWMEIN VEG</span> <strong>7,50€</strong></h3>
+                                                                        <p>Fideos salteados con pollo/cerdo/verduras, sazonados con soja y
+                                                                            un toque de especias.
+                                                                            Stir-fry noodles with boneless chicken/pork/veggies, seasoned
+                                                                            with soy and a touch of spice.
+                                                                            </p>
+                                                                        </div>
+                                                       
+                                                                    </div>
+                                                                     <div class="menu-item">
+                                                                        <div class="menu-img">
+                                                                            <img src="img/" alt="Image">
+                                                                        </div>
+                                                                        <div class="menu-text">
+                                                                            <h3><span>FRY RICE CHICKEN</span> <strong>8,50€</strong></h3>
+                                                                            <p>Arroz salteado con vegetales temporada y pollo/cerdo a elegir.
+                                                                                Sautéed rice with seasonal vegetables and chicken/pork of your
+                                                                                choice</p>
+                                                                            </div>
+                                                       
+                                                                        </div>
+                                                                         <div class="menu-item">
+                                                                            <div class="menu-img">
+                                                                                <img src="img/" alt="Image">
+                                                                            </div>
+                                                                            <div class="menu-text">
+                                                                                <h3><span>FRY RICE PORK</span> <strong>8,50€</strong></h3>
+                                                                                <p>Arroz salteado con vegetales temporada y pollo/cerdo a elegir.
+                                                                                    Sautéed rice with seasonal vegetables and chicken/pork of your
+                                                                                    choice</p>
+                                                                                </div>
+                                                       
+                                                                            </div>
+                                                                             <div class="menu-item">
+                                                                                <div class="menu-img">
+                                                                                    <img src="img/" alt="Image">
+                                                                                </div>
+                                                                                <div class="menu-text">
+                                                                                    <h3><span>FRY RICE VEG</span> <strong>7,50€</strong></h3>
+                                                                                    <p>Arroz salteado con vegetales temporada y pollo/cerdo a elegir.
+                                                                                        Sautéed rice with seasonal vegetables and chicken/pork of your
+                                                                                        choice</p>
+                                                            </div>
+                                                        </div> 
+                                                        <div class="menu-item">
+                                                            <div class="menu-img">
+                                                                <img src="img/" alt="Image">
+                                                            </div>
+                                                            <div class="menu-text">
+                                                                <h3><span>THUKPA CHICKEN</span> <strong>9,95€</strong></h3>
+                                                                <p>Sopa de tallarines tibetanos con verduras, especias, hierbas del
+                                                                    Himalaya y carne a elegir.
+                                                                    Tibetan noodle soup with vegetables, spices, Himalayan herbs and
+                                                                    your choice of meat.</p>
+                                                                </div>
+                                                            </div> 
+                                                            <div class="menu-item">
+                                                                <div class="menu-img">
+                                                                    <img src="img/" alt="Image">
+                                                                </div>
+                                                                <div class="menu-text">
+                                                                    <h3><span>THUKPA PORK</span> <strong>9,95€</strong></h3>
+                                                                    <p>Sopa de tallarines tibetanos con verduras, especias, hierbas del
+                                                                        Himalaya y carne a elegir.
+                                                                        Tibetan noodle soup with vegetables, spices, Himalayan herbs and
+                                                                        your choice of meat.</p>
+                                                                    </div>
+                                                                </div> 
+                                                                <div class="menu-item">
+                                                                    <div class="menu-img">
+                                                                        <img src="img/" alt="Image">
+                                                                    </div>
+                                                                    <div class="menu-text">
+                                                                        <h3><span>THUKPA VEG</span> <strong>8,50€</strong></h3>
+                                                                        <p>Sopa de tallarines tibetanos con verduras, especias, hierbas del
+                                                                            Himalaya y carne a elegir.
+                                                                            Tibetan noodle soup with vegetables, spices, Himalayan herbs and
+                                                                            your choice of meat.</p>
+                                                            </div>
+                                                       
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <div class="menu-img">
+                                                                <img src="img/" alt="Image">
+                                                            </div>
+                                                            <div class="menu-text">
+                                                                <h3><span>MIX THUKPA</span> <strong>12,65€</strong></h3>
+                                                                <p>Un plato de sopa de fideos tibetanos con verduras, pollo, cerdo,
+                                                                    momo, especias y hierbas del Himalaya.
+                                                                    A soup bowl of tibetan noodle with vegetables, chicken, pork,
+                                                                    momo, spices and Himalayan herbs.
+                                                                    </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                                    <div class="col-lg-5 d-none d-lg-block">
+                                                                        <img src="img/logo-removebg-preview.png" alt="Image">
+                                                                    </div>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                    <div id="POSTRES" class="container tab-pane fade">
+                                                        <div class="row">
+                                                            <div class="col-lg-7 col-md-12">
+                                                                <div class="menu-item">
+                                                                    <div class="menu-img">
+                                                                        <img src="img/KHEER.png" alt="Image">
+                                                                    </div>
+                                                                    <div class="menu-text">
+                                                                        <h3><span>KHEER</span> <strong>5.95Є</strong></h3>
+                                                                        <p>Arroz con leche con frutas secas.
+                                                                            Rice pudding with dry fruits.
+                                                                            </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="menu-item">
+                                                                    <div class="menu-img">
+                                                                        <img src="img/" alt="Image">
+                                                                    </div>
+                                                                    <div class="menu-text">
+                                                                        <h3><span>GULAB JAMUN</span> <strong>5.50Є</strong></h3>
+                                                                        <p>Dulce popular elaborado con bolitas de masa frita a base de
+                                                                            leche bañadas en almíbar azucarado.
+                                                                            Popular sweet made from deep fried balls of milk based dough
+                                                                            that are soaked in sugary syrup.
+                                                                            </p>
+                                                                    </div>
+                                                               
+                                                                </div> <div class="menu-item">
+                                                                    <div class="menu-img">
+                                                                        <img src="img/" alt="Image">
+                                                                    </div>
+                                                                    <div class="menu-text">
+                                                                        <h3><span>HELADO KULFI </span> <strong>5.50Є</strong></h3>
+                                                                        <p>Un delicioso postre a base de leche concentrada y frutos
+                                                                            secos, y aromatizado con especias.
+                                                                            A delicious dessert based on concentrated milk and nuts, and
+                                                                            flavored with spices.</p>
+                                                                    </div>
+                                                               
+                                                                </div> <div class="menu-item">
+                                                                    <div class="menu-img">
+                                                                        <img src="img/" alt="Image">
+                                                                    </div>
+                                                                    <div class="menu-text">
+                                                                        <h3><span>HELADOS (Ice cream) </span> <strong>3.95Є</strong></h3>
+                                                                        <p>Una sopa tradicional de frijoles de ojo negro, brotes de
+                                                                            bambú fermentados y papas preparada con la receta
+                                                                            especial del chef.
+                                                                            A traditional soup of black eyed beans, fermented
+                                                                            bamboo shoots and potatoes prepared with chef's
+                                                                            special recipe.</p>
+                                                                  
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                                            <div class="col-lg-5 d-none d-lg-block">
+                                                                                <img src="img/logo-removebg-preview.png" alt="Image">
+                                                                            </div>
+                                                                        </div>
+                                                                
+                                                            </div>
+                                                            <div id="SMOOTHIES" class="container tab-pane fade">
+                                                                <div class="row">
+                                                                    <div class="col-lg-7 col-md-12">
+                                                                        <div class="menu-item">
+                                                                            <div class="menu-img">
+                                                                                <img src="img/" alt="Image">
+                                                                            </div>
+                                                                            <div class="menu-text">
+                                                                                <h3><span>MANGO LASSI</span> <strong>4.50Є</strong></h3>
+                                                                                <p>Batido de yogur a sabor mango.
+                                                                                    Mango flavored yogurt smoothie
+                                                                                    </p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="menu-item">
+                                                                            <div class="menu-img">
+                                                                                <img src="img/" alt="Image">
+                                                                            </div>
+                                                                            <div class="menu-text">
+                                                                                <h3><span>SWEET/SALT LASS</span> <strong>3.90Є</strong></h3>
+                                                                                <p>Batido de yogur sabor dulce/salado.
+                                                                                    Sweet/salty flavored yogurt smoothie.</p>
+                                                                            </div>
+                                                                       
+                                                                        </div> <div class="menu-item">
+                                                                            <div class="menu-img">
+                                                                                <img src="img/" alt="Image">
+                                                                            </div>
+                                                                            <div class="menu-text">
+                                                                                <h3><span>YUMMY STRAWBERRRY</span> <strong>3.90Є</strong></h3>
+                                                                                
+                                                                            </div>
+                                                                       
+                                                                        </div> <div class="menu-item">
+                                                                            <div class="menu-img">
+                                                                                <img src="img/WhatsApp Image 2024-06-08 at 16.07.49.png" alt="Image">
+                                                                            </div>
+                                                                            <div class="menu-text">
+                                                                                <h3><span>MILKY VAINILLA</span> <strong>3.90Є</strong></h3>
+                                                                                
+                                                                            </div>
+                                                                       
+                                                                        </div>
+                                                                        <div class="menu-item">
+                                                                            <div class="menu-img">
+                                                                                <img src="img/" alt="Image">
+                                                                            </div>
+                                                                            <div class="menu-text">
+                                                                                <h3><span>SOO.. CHOCOLATEY</span> <strong>3.90Є</strong></h3>
+                                                                           
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                                    <div class="col-lg-5 d-none d-lg-block">
+                                                                                        <img src="img/logo-removebg-preview.png" alt="Image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+            
+            <!-- Menu End -->
+
+
+        <!-- Footer Start -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="footer-contact">
+                                    <h2>Nuestra dirección</h2>
+                                    <p><i class="fa fa-map-marker-alt"></i>Carre de Lepant, 356, L'Eixample, 08025 Barcelona</p>
+                                    <p><i class="fa fa-phone-alt"></i>+34 722 63 68 69</p>
+                                    <p><i class="fa fa-envelope"></i>nepalimomohouse356 @gmail.com
+
+                                    </p>
+                                    <div class="footer-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-youtube"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="footer-link">
+                                    <h2>enlaces rápidos</h2>
+                                    <a href="">Terms of use</a>
+                                    <a href="">Privacy policy</a>
+                                    <a href="">Cookies</a>
+                                    <a href="">Help</a>
+                                    <a href="">FQAs</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="footer-newsletter">
+                            <h2>Boletin informativo</h2>
+                            <p>
+                               Tomar algo o a tomar por culo, si tienes quejas aqui. De parte del creador.
+                            </p>
+                            <div class="form">
+                                <input class="form-control" placeholder="Email goes here">
+                                <button class="btn custom-btn">Entregar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <p>Copyright &copy; <a href="#">Karun Dh</a>, All Right Reserved.</p>
+                    <p>Designed By <a href="https://www.instagram.com/dailly9s/">HTML Codex</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+        
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
